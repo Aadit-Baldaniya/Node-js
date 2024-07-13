@@ -1,5 +1,7 @@
-const { Akash, Ansh, Aadit } = require("./module");
-import value from "./module.js";
+// const value = require("./module");
+const { Aadit } = require("./module");
+// import value, { Aadit, Akash, Ansh } from "./module.js";
+console.log(Aadit);
 let api = { name: "Aadi", id: "02" };
 const data = [
   { name: "Aadi", id: "02" },
@@ -33,10 +35,4 @@ console.log(
     return value;
   })
 );
-console.log(name(4, 2));
-console.log(data);
-console.log("code", 1 + 2);
-console.log("Aadi", Aadit);
-console.log("Aadi", Akash);
-console.log("Aadi", Ansh);
-console.log(value);
+console.log("Aadit", Aadit);

@@ -1,6 +1,11 @@
-const Aadit = { name: "Aadi", id: "02" };
-const Akash = { name: "Akash", id: "30" };
-const Ansh = { name: "Ansh", id: "11" };
-const value = 10;
+Aadit = { name: "Aadi", id: "02" };
+Akash = { name: "Akash", id: "30" };
+Ansh = { name: "Ansh", id: "11" };
+value = 10;
+// export default value;
+// export { Aadit, Akash, Ansh };
+// exports = { Aadit, Akash, Ansh, value };
+// module.exports = ;
 module.exports = { Aadit, Akash, Ansh };
-export default value;
+const aadi = require("./data.json");
+console.log(aadi);

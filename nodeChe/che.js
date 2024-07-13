@@ -1,0 +1,24 @@
+// const fs = require("fs");
+// // fs.mkdirSync("thapa");
+// fs.writeFileSync("thapa/thapa.txt", "Thapa Node Challange Vidio");
+// fs.appendFileSync("thapa/thapa.txt", "Thapa Node Chellaenge Compelet");
+// const data = fs.readFileSync("thapa/thapa.txt", "utf-8");
+// console.log(data);
+// fs.renameSync("thapa/thapa.txt", "thapa/thapaCode.txt");
+// fs.unlinkSync("thapa/thapaCode.txt");
+// fs.rmdirSync("thapa");
+// const fs = require("fs");
+// fs.mkdirSync("Node");
+// fs.writeFileSync("Node/Node.txt", "Node most Practice!");
+// fs.appendFileSync("Node/Node.txt", " Node Core File");
+// const data = fs.readFileSync("Node/Node.txt", "utf-8");
+// console.log(data);
+// fs.renameSync("Node/Node.txt", "Node/NodeCode.txt");
+// fs.unlinkSync("Node/NodeCode.txt");
+// fs.rmdirSync("Node");
+
+const { log } = require("console");
+const fs = require("fs");
+// fs.mkdirSync("Node");
+fs.writeFileSync("Node/nodeCode", "Data-Code");
+const data = fs.readFileSync("Node/nodeCode");
